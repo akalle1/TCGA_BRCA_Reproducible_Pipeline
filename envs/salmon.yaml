@@ -1,0 +1,12 @@
+name: salmon_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - salmon=1.10.0
+  - fastqc=0.12.1
+  - multiqc=1.15
+  - samtools=1.17
+  - pigz=2.6

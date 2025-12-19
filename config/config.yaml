@@ -1,0 +1,17 @@
+project:
+  name: "cga-brca-differential-expression"
+
+samples:
+  metadata: "config/samples.tsv"
+  comparison:
+    control: "normal"
+    treatment: "tumor"
+
+# DESeq2 parameters
+deseq2:
+  alpha: 0.05
+  lfc_threshold: 1.0
+
+sample_id condition patient_id
+CGA-A1-A0SB-01A	tumor	TCGA-A1-A0SB
+TCGA-A1-A0SB-11A normal	TCGA-A1-A0SB

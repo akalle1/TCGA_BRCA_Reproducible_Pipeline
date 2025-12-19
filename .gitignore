@@ -1,5 +1,13 @@
 aws/
 awscliv2.zip
-dist/
-*.rst
+.snakemake/
 data/
+results/
+benchmarks/
+log/
+*.fastq
+*.fastq.gz
+__pycache__/
+.Rhistory
+.DS_Store
+*.swp
